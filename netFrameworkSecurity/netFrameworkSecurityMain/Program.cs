@@ -10,6 +10,8 @@ namespace netFrameworkSecurityMain
     {
         static void Main(string[] args)
         {
+
+            CustomWebPermission cwp = new CustomWebPermission();
         }
     }
 }
